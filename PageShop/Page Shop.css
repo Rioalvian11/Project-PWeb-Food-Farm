@@ -1,0 +1,236 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+    .header{
+        overflow: hidden;
+        background-color: white;
+        padding: 5px 5px;
+    }
+    .header img{
+        /* padding: 20px 100px; */
+        height:60px;
+        width:80px;
+        * {
+        box-sizing: border-box;
+        }
+    }    
+    .header a {
+        float: left;
+        color: black;
+        text-align: left;
+        /* padding (atas bawah)(kanan kiri) */
+        padding: 0px 37px;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .header a:hover{
+        background-color: green;
+        color: white;
+    }
+
+    a.contoh input[type=text] {
+        padding: 9px;
+        font-size: 15px;
+        border: 1px solid grey;
+        float: center;
+        width: 50%;
+        background: #f1f1f1;
+    }
+   
+    a.contoh button {
+        float: center;
+        width: 20%;
+        padding: 10px 8px;
+        background: #2196F3;
+        color: white;
+        font-size: 15px;
+        border: 0px solid grey;
+        border-left: none;
+        cursor: pointer;
+    }
+
+    a.contoh button:hover {
+        background: #0b7dda;
+    }
+
+    a.contoh::after {
+        content: "";
+        clear: both;
+        Display: table;
+    }
+
+    .container img{
+        width: 100%;
+        height: 1%;
+    }
+    
+
+    .cont h1{
+        position: absolute;
+        top: 16%;
+        left: 55%;
+        font-size: 50px;
+        font-weight: bolder;
+        color: green;
+    }
+
+
+    .cont h2{
+        position: absolute;
+        top: 30%;
+        left: 55%;
+        font-size: 35px;
+        font-weight: lighter;
+        color: green;
+    }
+
+    .cont a{
+        background-color: green;
+        position: absolute;
+        top: 50%;
+        left: 66%;
+        font-size: 20px;
+        color: white;
+        padding: 3px 20px;
+        text-decoration: none;
+    }
+
+    .container2{
+        position: relative;
+        width: 1200px;
+        height: 600px;
+        margin: 140px auto;
+        background-color:white;
+    }
+
+    .container2 .box{
+        position: relative;
+        width: calc(400px - 30px);
+        height: calc(600px - 30px);
+        background-color:#e6cda8;
+        float: left;
+        margin: 15px;
+    }
+
+    .container2 .box img{
+        height: 60%;
+        width: 60%;
+        padding-top: 10%;
+        padding-left:15% ;
+         
+    }
+    .container2 .box .image2{
+        height:80%;
+        width:180%;
+        
+    }
+
+    .container2 .box .image3{
+        height:90% ;
+        width:150% ;
+    }
+
+    .container2 p{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .container2 .box a{
+        background-color: green;
+        color: white;
+        position: absolute;
+        right: 43%;
+        top: 80%;
+        font-size: 20px;
+        padding: 0px 10px;
+        text-decoration: none;
+    }
+
+    table{
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+
+    tr td{
+        border: 10px solid white;
+        font-family: 'Segoe UI';
+        color: black;
+        text-align: center;
+        background-color: #c9e8b5;
+    }
+
+    tr td p{
+        position: absolute;
+        top: 199%;
+        font-weight: bold;
+        font-size: 20px;
+        color: green;
+    }
+
+    .container4{
+        position: relative;
+        width: 1200px;
+        height: 600px;
+        margin: 70px auto;
+        background-color:white;
+    }
+
+    .container4 .box{
+        position: relative;
+        width: calc(300px - 30px);
+        height: calc(400px - 30px);
+        background-color:rgb(170, 170, 245);
+        float: left;
+        margin: 15px;
+    }
+
+    .container4 .box img{
+        height: 100%;
+        width: 70%;
+        padding-top: 25%;
+        padding-left:13% ;
+         
+    }
+
+    .container5{
+        position: relative;
+        width: 1200px;
+        height: 300px;
+        margin: 70px auto;
+        background-color:grey;
+    }
+
+    .container5 .box{
+        position: relative;
+        width: calc(300px - 5px);
+        height: calc(400px - 30px);
+        background-color:#bed8ad;
+        float: left;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    .container5 .box img{
+        height: 100%;
+        width: 73%;
+        padding-top: 10%;
+        padding-left:13% ;
+         
+    }
+
+    .footer{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin: 70px auto;
+        background-color:white;
+    }
+
+
