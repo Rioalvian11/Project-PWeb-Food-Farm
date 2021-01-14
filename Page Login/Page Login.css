@@ -69,3 +69,13 @@ body{
 .box img{
     width: 30%;
 }
+
+@media screen and (max-width : 576px){
+    body{
+        background-size: auto;
+    }
+
+    .box{
+        width: auto;
+    }
+}
